@@ -1,0 +1,92 @@
+
+
+.container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+    background-image: url(https://i.imgur.com/OwQwKtG.jpg);
+    
+    position: relative;
+        h1 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 10vw;
+            color: #f97a91;
+            font-variant: small-caps;
+            display: block;
+            position: absolute;
+            top: 6vw;
+            right:5vw;
+            text-align: right;
+            animation-name:luana;
+            animation-delay: 1s;
+            animation-duration: 2s;
+            animation-timing-function: (cubic-bezier(.12,1.14,.62,1.33));
+           
+        }
+        h4 {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.4vw;
+            color: white;
+            font-style: italic;
+            display: block;
+            position: absolute;
+            top: 25vw;
+            right: 5vw;
+            background-color: rgb(151, 147, 147);
+            padding: 6px;
+            
+            
+        }
+        .inicio {
+            top: 34vw;
+            margin:auto 50%;
+            transform: translate(-50%,-50%);
+            padding-right: 50px;
+            a:hover {
+                #flecha{
+                    transform: rotate(90deg);
+                    transition-duration: 0.7s;
+                }
+
+                }
+            #flecha {
+                position: absolute;
+                top: 9px;
+                right: 12px;
+                width: 30px;
+                height: 30px;
+                }    
+            }
+           
+            
+        .redes {
+            position: fixed;
+            bottom: 0.1vw;
+            left: 1vw;
+            z-index: 2;
+            
+            img {
+                display: block;
+                margin: 8px auto;
+                
+
+            }
+        }
+
+   
+   
+  
+
+
+}
+
+@keyframes luana {
+    from{transform: translateX(-400px);
+       
+    }
+    to {transform: translateX(0px);}
+
+
+}
+

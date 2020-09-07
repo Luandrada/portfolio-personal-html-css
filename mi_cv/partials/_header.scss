@@ -1,0 +1,38 @@
+header{
+    height: 8vh;
+    background-color: rgb(151, 147, 147);
+    width: 100%;
+   
+    nav{
+        input{ /* para ocultar la casilla*/
+            visibility: hidden;}
+        ul{
+        display: flex;
+        justify-content: space-around;
+        font-family:'Maven Pro', sans-serif; 
+        font-size: 20px;
+        font-weight: bold;
+        color:rgba(255, 255, 255, 0.884) ;
+        padding-top:2vh ;
+        letter-spacing: 2px;
+       
+        li{
+            list-style: none; 
+            
+            a{
+                text-decoration: none;
+                &:link{
+                    color:rgba(255, 255, 255, 0.884) ;
+                }
+                &:visited{
+                    text-decoration: none; color:rgba(255, 255, 255, 0.884) ;
+                }
+                &:hover{
+                    color:#f97a91 ;
+                }
+
+            } 
+        }
+    }
+    }
+}

@@ -1,0 +1,84 @@
+.portfolio{
+    height: 100vh;  
+    background:linear-gradient(0deg,  #fff 15%,#f97a9170 80%,); 
+    position: relative;
+    
+    h2{
+        font-family:'Maven Pro', sans-serif; 
+        font-size: 45px;
+        font-weight: bold;
+        color:#f97a91 ;
+        position: absolute;
+        bottom: 18%;
+        left: 7%;
+       
+    }
+    img{
+        position: absolute;
+        border: 3px solid rgba(128, 128, 128, 0.678);;
+        box-shadow: -2px 2px 2px rgb(196, 186, 186);
+        &:hover{
+            transform: scale(1.1);
+        }
+        &#prouno{
+            width: 15vw;
+            height: 15vw;
+            border-radius: 50%;
+            left: 30%;
+            top: 0;
+            
+        }
+        &#prodos{
+            width: 25vw;
+            height: 25vw;
+            border-radius: 50%;
+            right: 35%;
+            bottom: 10%;
+            
+        }
+        &#protres{
+            width: 13vw;
+            height: 13vw;
+            border-radius: 50%;
+            top: 25%;
+            left: 12%;
+            
+        }
+        &#procuatro{
+            width: 30vw;
+            height: 30vw;
+            border-radius: 50%;
+            right: 3%;
+            top: 4%;
+            
+        }
+        
+
+    }
+    p{
+        font-family:'Maven Pro', sans-serif; 
+        font-size: 15px;
+        font-weight: bold;
+        color:#f97a91 ;
+        position: absolute;
+        &#tuno{
+            left: 33%;
+            top: 35%;
+        }
+        &#tdos{
+            left: 51%;
+            top: 30%;
+        }
+        &#ttres{
+            left: 15.5%;
+            top: 57%;
+        }
+        &#tcuatro{
+            right: 14%;
+            top: 72%;}
+
+    }
+
+
+
+}

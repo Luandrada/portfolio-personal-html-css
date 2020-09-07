@@ -1,0 +1,163 @@
+@media screen and (max-width:600px) {
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    
+    nav{
+        width: 0px;
+        height: 0px;
+        margin-right: 35px;
+
+
+        span{ /*las tres rayitas*/
+            display: flex;
+            width: 20px;
+            height: 2px;
+            background-color: #fff;
+            margin-bottom: 3px;
+            
+            
+        }
+        input{ /* para ocultar la casilla*/
+            visibility: hidden;
+            &:checked ~ ul {
+                opacity: 1;
+                height: 100px;
+                margin-top: 12.2px;
+                background-color: rgba(206, 197, 197, 0.432);
+                z-index: 15;
+
+                
+            }
+            
+
+
+        }
+        ul{ //para que esten los items uno arriba del otro y q estea  la izqui//
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: initial;
+            opacity: 0;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+           width: 100%;
+           right: 0;
+           
+            li{
+                z-index: 10;
+                margin-left: 13px;
+                margin-bottom: 10px;
+                &:first-child {
+                    margin-top: 6px;
+                }
+            }
+              }
+        }
+    }
+button{
+    border-radius: 50px;
+    a{
+    font-size: 15px;       
+    } 
+}
+.container{
+    h1{
+        top:35vw;
+        font-size: 16vw;
+    }
+    h4{
+        top: 70vw;
+        padding: 3px;
+        font-size: 2vw;
+        }
+    .inicio{
+        top: 65%;
+        padding-right: 30px;
+        #flecha {
+            width: 16px;
+            height: 16px;
+            top: 6px;
+            right: 7px;
+        }
+    }
+    .redes{
+        img{
+            width:10px ;
+            height: 10px;
+        }
+    }
+
+}   
+.aboutme{
+    display: block;
+    div{
+        width: 100%;
+        img{
+            width: 115px;
+            height: 150px;
+            top: -90px;
+            left: 95px;
+        }
+    }
+
+    h2{
+        left: 50%;
+        top: 55px;
+        font-size: 33px;
+    }
+    p{
+        position: relative;
+        z-index: 3;
+        margin-top: -455px;
+        font-size: 16px;
+        margin-left: 2px;
+        line-height: 20px;
+        width: 60%;
+        
+    }
+    #trabajemos{
+        top: 115%;
+        margin-right:-190px;
+    }
+} 
+.servicios {
+  margin-top:-170px;
+  height: 100%;
+    h2{
+        font-size: 33px;
+        left: 5px;
+        top:1100px;
+
+    }
+    div{
+        margin-top: 350px;
+        
+
+    }
+}
+
+
+/*desmadre*/ 
+.contacto{
+    display: block;
+    height: 100%;
+    #formulario{
+        width: 100%;
+        h2{
+
+        }
+        form{
+
+        }
+    }
+    #comentarios{
+        width: 100%;
+    }
+}
+
+
+
+
+}

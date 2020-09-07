@@ -1,0 +1,62 @@
+.servicios{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;    
+    padding: 90px 20px;
+    background:linear-gradient(0deg, #f97a9170 20%, #fff 75%);
+   
+    h2{
+        font-family:'Maven Pro', sans-serif; 
+        font-size: 45px;
+        font-weight: bold;
+        position: absolute;
+        display: block;
+        color:#f97a91 ;
+    }
+
+    div {
+        width:400px ;
+       
+        margin-top: 65px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 0px;
+        
+        position: relative;
+
+        
+        
+       
+       
+      
+        img {
+            position: absolute;
+            margin:auto 50%;
+            transform: translateX(-50%);
+            
+                        
+        }
+        h3 {
+            display: block;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            top: 135px;
+           text-align: center;
+            font-family: 'Maven Pro', sans-serif;
+            font-size: 22px;
+        }
+        p{
+        display: block;
+        position: absolute;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        top: 190px;
+        
+
+    }
+    }
+    
+}
